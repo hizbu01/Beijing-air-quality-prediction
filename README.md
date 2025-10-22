@@ -18,25 +18,25 @@ PM2.5: Fine particulate matter (particles ≤ 2.5 micrometers). This is the targ
 
 PM10: Inhalable particulate matter (particles ≤ 10 micrometers).
 
-SO2: Sulfur Dioxide.
+* SO2: Sulfur Dioxide.
 
-NO2: Nitrogen Dioxide.
+* NO2: Nitrogen Dioxide.
 
-CO: Carbon Monoxide.
+* CO: Carbon Monoxide.
 
-O3: Ozone.
+* O3: Ozone.
 
-TEMP: Temperature (in degrees Celsius).
+* TEMP: Temperature (in degrees Celsius).
 
-PRES: Atmospheric Pressure (in hPa).
+* PRES: Atmospheric Pressure (in hPa).
 
-DEWP: Dew Point Temperature (in degrees Celsius).
+* DEWP: Dew Point Temperature (in degrees Celsius).
 
-RAIN: Hourly precipitation (in mm).
+* RAIN: Hourly precipitation (in mm).
 
-wd: Wind Direction (categorical, e.g., 'N', 'NW').
+* wd: Wind Direction (categorical, e.g., 'N', 'NW').
 
-WSPM: Wind Speed (in meters/second).
+* WSPM: Wind Speed (in meters/second).
 
 Note: The notebook BMAQ.ipynb assumes the data file is named Beijing Multisite air Quality data.csv.
 
@@ -223,6 +223,7 @@ Run Jupyter:
 In your terminal, run:
 
 jupyter notebook
+
 
 
 
